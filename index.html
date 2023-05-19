@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+        <title></title>
+        <meta name="description" content="">
+    </head>
+    <body>
+
+        <nav>
+            <img style='width:4rem; position: absolute; filter: brightness(0) invert(1); top: -3px; left: -2px;' src="https://symbolikon.com/wp-content/uploads/edd/2019/09/Alchemy-earth-bold-400w.png" alt="">
+            <h2 style="padding-inline:2.5rem;">Vinta</h2>
+            <ul>
+              <li><a>Home</a></li>
+              <li><a>Shop</a></li>
+              <li><a id="modalBtn">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <div>
+                <h1>Travel Bag</h1>
+                <a style='margin-block:1rem; transform: translateX(150%);' class="📍" id="modalBtn">BUY</a>
+            </div>
+        </header>
+
+        <main>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hld4uaO1MDE?controls=0&mute=1&showinfo=0&rel=0&autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </main>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p>Contact Form</p>
+                    <span class="close">&times;</span>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                            <form id="Form" name="MailingList" method="get" onsubmit=" this.reset(); return false">
+                                <div class="Form">
+                                    <div>
+                                        <label for="name-2">Name</label>
+                                        <input type="text" class="text-field" maxlength="256" name="name-2" data-name="Name 2" placeholder="John Smith" id="name-2">
+                                    </div>
+                                    <div>
+                                        <label for="email-2">Email Address</label>
+                                        <input type="email" class="text-field" maxlength="256" name="email-2" data-name="Email 2" placeholder="john@gmail.com" id="email-2" required="">
+                                    </div>
+                                    <div>
+                                        <label for="subject-2">Subject</label>
+                                        <input type="text" class="text-field" maxlength="256" name="message" data-name="Email 2" placeholder="Subject" id="subject-2" required="">
+                                    </div>
+                                    <div>
+                                        <label for="message-2">Message</label>
+                                        <input type="text" class="text-field message" maxlength="256" name="message" data-name="Email 2" placeholder="Message" id="message-2" required="">
+                                    </div>
+                                    <input type="submit" value="Send Your Message" data-wait="Please wait..." class="FormButton">
+                                </form>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="modal-footer">
+                    <p>Copyright ©Vinta 2023</p>
+                </div>
+            </div>
+        
+        
+        
+        </body>
+</html>
